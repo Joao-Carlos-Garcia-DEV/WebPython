@@ -1,8 +1,10 @@
+" Teste Flask "
+
 from flask import Flask
 
 app = Flask("Ola")
 
-
 @app.route("/")
 def ola():
-    return "Testando Flask 3"
+    "Teste Flask"
+    return "Testando Flask 4"
